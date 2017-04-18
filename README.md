@@ -1,7 +1,10 @@
-# test coverage for  [mqtt (v2.6.2)](https://github.com/mqttjs/MQTT.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mqtt.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mqtt) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mqtt.svg)](https://travis-ci.org/npmtest/node-npmtest-mqtt)
+# npmtest-mqtt
+
+#### test coverage for  [mqtt (v2.6.2)](https://github.com/mqttjs/MQTT.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mqtt.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mqtt) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mqtt.svg)](https://travis-ci.org/npmtest/node-npmtest-mqtt)
+
 #### A library for the MQTT protocol
 
-[![NPM](https://nodei.co/npm/mqtt.png?downloads=true)](https://www.npmjs.com/package/mqtt)
+[![NPM](https://nodei.co/npm/mqtt.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/mqtt)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-mqtt/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-mqtt/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-mqtt/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mqtt/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mqtt/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-mqtt/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-mqtt/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-mqtt/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-mqtt/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-mqtt/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-mqtt%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-mqtt/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-mqtt/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-mqtt/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-mqtt/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-mqtt%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-mqtt/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-mqtt/build/test-report.html](https://npmtest.github.io/node-npmtest-mqtt/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-mqtt/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-mqtt/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-mqtt/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-mqtt/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-mqtt/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-mqtt/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-mqtt/build/screenCapture.npmPackageListing.svg)
 
@@ -42,12 +51,10 @@
     },
     "contributors": [
         {
-            "name": "Adam Rudd",
-            "email": "adamvrr@gmail.com"
+            "name": "Adam Rudd"
         },
         {
             "name": "Matteo Collina",
-            "email": "matteo.collina@gmail.com",
             "url": "https://github.com/mcollina"
         }
     ],
@@ -122,12 +129,10 @@
     "main": "mqtt.js",
     "maintainers": [
         {
-            "name": "adamvr",
-            "email": "adam.rudd@uqconnect.edu.au"
+            "name": "adamvr"
         },
         {
-            "name": "matteo.collina",
-            "email": "hello@matteocollina.com"
+            "name": "matteo.collina"
         }
     ],
     "name": "mqtt",
@@ -135,7 +140,6 @@
     "pre-commit": [
         "test"
     ],
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/mqttjs/MQTT.js.git"
